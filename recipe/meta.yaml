@@ -1,5 +1,5 @@
 {% set name = "mammos-spindynamics" %}
-{% set version = "0.2.4" %}
+{% set version = "0.2.6" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/mammos_spindynamics-{{ version }}.tar.gz
-  sha256: f2838257035e0b419256c22385a33e2c021e953fb989db1131f9f1823dfd5473
+  sha256: f10266bbed0461acc9a6cb462568e9816f5693eccede70048f8072baaf9cd47c
 
 build:
   noarch: python
