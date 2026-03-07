@@ -22,7 +22,7 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
-    - mammos-entity >=0.8.0
+    - mammos-entity >=0.12.0
     - mammos-units
     - matplotlib-base >=3.10.1
     - numpy
